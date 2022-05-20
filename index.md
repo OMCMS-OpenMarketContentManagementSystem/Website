@@ -1,11 +1,12 @@
-## Open Market Content Management System
+## Open Market Content Management System is Comming Soon!
 ## E-Commerce with Big Ideas!
-
-### OMCMS is Comming Soon!
 
 ### Whats OMCMS
 
-OMCMS (Open Market Content Management System) is a opensource self-hosted e-commerce platform, thats crypto and privacy focussed.
+We wanted to create a new CMS (Content Management System) that had similar features as Wordpress but more easy to maintain and use.
+The more advanced it is the more difficult it is to maintain "usually", so we decided to create OMCMS, a platform thats mimlistic and efficent while offering the privacy and security features every E-Commerce Platform should have.
+
+OMCMS (Open Market Content Management System) is a opensource self-hosted E-Commerce Platform, thats crypto and privacy focussed.
 We aim to provide a easy to use platform for marketing where users are in control.
 
 ### What does OMCMS have to offer?
@@ -21,6 +22,8 @@ We aim to provide a easy to use platform for marketing where users are in contro
 9. Tagging and rep system for every user including vendors.
 10. Only users who had purchased an item can leave a review, which helps prevent fake reviews.
 11. Theres No Javascript as this project is privacy focussed while being Tor Browser friendly.
+12. Plugins Repo.
+13. Themes Repo.
 
 ## How does this work?
 
@@ -32,12 +35,16 @@ When a user registers, all there content in in a folder thats encrypted with the
 
 ## Whats left for development?
 
-1. Inpliment photo uploads.
-2. Sanitise hidden metadata upon uploading photos/files for privacy resons.
+1. Implement photo uploads.
+2. Sanitise hidden metadata upon uploading photos/files for privacy reasons.
+3. Add Plugins support.
+4. Add Themes support.
+5. 
+6. Create Installer.
 
-## What do we plan on adding next?
+## What do we plan on adding?
 
-We want to inpliment a 2FA features that utilizes a Security Key
+We want to implement a 2FA feature that utilizes a Security Key
 
 ## What are some future features we would like to see?
 
