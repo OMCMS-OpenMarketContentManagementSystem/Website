@@ -1,29 +1,43 @@
-## OMCMS a E-Commerce Platform with Big Ideas!
+## Open Market Content Management System
+## E-Commerce with Big Ideas!
 
-https://openmarketcontentmanagementsystem.github.io/omcms.info/
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### OMCMS is Comming Soon!
 
 ### Whats OMCMS
 
-OMCMS (Open Market Content Management System) is a opensource self-hosted e-commerce platform, thats crypto focussed with privacy features buit in.
+OMCMS (Open Market Content Management System) is a opensource self-hosted e-commerce platform, thats crypto and privacy focussed.
 We aim to provide a easy to use platform for marketing where users are in control.
 
 ### What does OMCMS have to offer?
 
 1. Vendor chooses what there willing to accept for crypto as a payment.
-2. Each User has a generated GPG-Key Pair created upon creating an account to secure there account.
+2. Each user has a generated GPG-Key Pair created upon creating an account.
 3. All internal messages are encrypted by default.
 4. Upon sending inqueries to vendor only one able to decrypt it is the vendor.
 5. Blogging support only for admins at the moment.
 6. Users can upload a seperate Public GPG-Key for securing there communications.
-7. 
+7. Backup and restore with click of a button with built in md5 hashing for integrity checks by default.
+8. OMCMS Currently Only Supports MySQL.
+9. Tagging and rep system for every user including vendors.
+10. Only users who had bought that particular item can leave a review, to help prevent false claims/reviews.
+11. 
+12. 
 
 ```markdown
 Syntax highlighted code block
 
 # Header 1
-## Header 2
+
+## What do we plan on adding next?
+
+We want to inpliment a 2FA features that utilizes a Security Key
+
+## What are some future features we would like to see?
+
+With OMCMS we have the hopes in creating platform thats node based.
+A marketplace thats self-hosted but also offers the ability to be a part of a global network of nodes with a mirrored DB for data integrigry and responsiveness.
+If one node goes down that marketplace with still run as there other nodes that are a part of a mirrored database.
+
 ### Header 3
 
 - Bulleted
