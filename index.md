@@ -20,13 +20,25 @@ We aim to provide a easy to use platform for marketing where users are in contro
 8. OMCMS Currently Only Supports MySQL.
 9. Tagging and rep system for every user including vendors.
 10. Only users who had bought that particular item can leave a review, to help prevent false claims/reviews.
-11. 
+11. No Javascript as this project is privacy focussed while being Tor Browser friendly.
 12. 
 
 ```markdown
 Syntax highlighted code block
+## How does this work?
 
-# Header 1
+OMCMS works by using MySQL as a database.
+Upon creating new listings, each string after TLD (.com,.net,.onion etc) is stored in the database not the actual url, like in WordPress!
+Each posting of either a listing or blog update is a sepearate php file containing all the contents for that page.
+
+When a user registers, all there content in in a folder thats encrypted with there GPG-Key thats created upon registration.
+
+
+## Whats left for development?
+
+1. Inpliment photo uploads.
+2. Sanitise hidden metadata upon uploading photos/files for privacy resons.
+3. 
 
 ## What do we plan on adding next?
 
@@ -38,25 +50,16 @@ With OMCMS we have the hopes in creating platform thats node based.
 A marketplace thats self-hosted but also offers the ability to be a part of a global network of nodes with a mirrored DB for data integrigry and responsiveness.
 If one node goes down that marketplace with still run as there other nodes that are a part of a mirrored database.
 
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
-
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OMCMS-OpenMarketContentManagementSystem/OMCMS-Site/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+If this project interest you please reach out to us via email: omcms@tutanota.com,
+
+Please use the following GPG-Key to secure your communications.
+
+
