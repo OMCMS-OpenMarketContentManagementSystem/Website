@@ -23,8 +23,6 @@ We aim to provide a easy to use platform for marketing where users are in contro
 11. No Javascript as this project is privacy focussed while being Tor Browser friendly.
 12. 
 
-```markdown
-Syntax highlighted code block
 ## How does this work?
 
 OMCMS works by using MySQL as a database.
@@ -32,7 +30,6 @@ Upon creating new listings, each string after TLD (.com,.net,.onion etc) is stor
 Each posting of either a listing or blog update is a sepearate php file containing all the contents for that page.
 
 When a user registers, all there content in in a folder thats encrypted with there GPG-Key thats created upon registration.
-
 
 ## Whats left for development?
 
