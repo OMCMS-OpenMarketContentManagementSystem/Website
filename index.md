@@ -19,8 +19,8 @@ We aim to provide a easy to use platform for marketing where users are in contro
 7. Backup and restore with ease with built in md5 hashing for integrity checks by default.
 8. OMCMS Currently Only Supports MySQL.
 9. Tagging and rep system for every user including vendors.
-10. Only users who had bought that particular item can leave a review, which helps prevent fake reviews.
-11. No Javascript as this project is privacy focussed while being Tor Browser friendly.
+10. Only users who had purchased an item can leave a review, which helps prevent fake reviews.
+11. Theres No Javascript as this project is privacy focussed while being Tor Browser friendly.
 
 ## How does this work?
 
