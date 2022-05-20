@@ -1,7 +1,7 @@
 ## Open Market Content Management System is Comming Soon!
 ## E-Commerce with Big Ideas!
 
-### Whats OMCMS
+### Whats OMCMS?
 
 We wanted to create a new CMS (Content Management System) that had similar features as Wordpress but more easy to maintain and use.
 The more advanced it is the more difficult it is to maintain "usually", so we decided to create OMCMS, a platform thats mimlistic and efficent while offering the privacy and security features every E-Commerce Platform should have.
@@ -31,7 +31,21 @@ OMCMS works by using MySQL as a database.
 Upon creating new listings, each string after TLD (.com,.net,.onion etc) is stored in the database not the actual url, like in WordPress!
 Each posting of either a listing or blog update is a sepearate php file containing all the contents for that page.
 
-When a user registers, all there content in in a folder thats encrypted with there GPG-Key thats created upon registration.
+When a user registers, all there content is in a folder thats encrypted with there GPG-Key thats created upon registration.
+
+To backup OMCMS is as simple as backing up the database and the data folder that contains all the user and store contents thats it, to restore simply reinstall OMCMS and restore database and the backed up data folder!
+
+With each new vendor they will have there own store with a mini store navigation that they can edit such as the store policy, stores GPG-Key, stores description, and also update the stores wallpaper/store photo.
+
+## How does the payment method work?
+
+We thoughtabout using escrow type of payment, but,
+we thought that escrow could put a user at risk for using funds as they usually require depositing funds in a wallet, we dont!
+As a vendor we ask for your recieving address as we feel its more safer for a typical user and hopefully would help each user feel more confortable.
+Even i would speculate is a platform was legit or not when asking me to deposit funds to a website ive never seen.
+
+All vendors are able to add there own payment methods, when posting a new listing vendors have the option to select what coin to accept or all.
+While all users will have the ability to choose how to pay based on what the vendor accepts!
 
 ## Whats left for development?
 
